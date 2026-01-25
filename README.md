@@ -1,168 +1,105 @@
-# Sneha Grian Joshua - Portfolio Website
+# Sneha Grian Joshua
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-pink?style=for-the-badge)](https://snehagrian.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sneha-grian)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:snehagrianjsk@gmail.com)
 
-## 🚀 Features
+## 👋 Welcome
 
-- **Modern Design**: Clean, professional design with smooth animations using Framer Motion
-- **Responsive**: Fully responsive design that works on all devices
-- **Dark Mode Support**: Automatic dark mode based on system preferences
-- **Performance Optimized**: Built with Next.js 14 for optimal performance and SEO
-- **Type-Safe**: Written in TypeScript for better code quality and developer experience
-- **Scalable Architecture**: Component-based structure for easy maintenance and scaling
-- **Typing Animation**: Dynamic role typing effect in hero section
-- **Scroll Progress**: Visual indicator showing page scroll progress
-- **Back to Top**: Smooth scroll-to-top button for easy navigation
-- **SEO Optimized**: Complete meta tags, Open Graph, and Twitter Card support
-- **Accessibility**: Enhanced focus states and keyboard navigation
-- **Resume Download**: One-click resume download functionality
-- **Achievement Metrics**: Showcase key accomplishments with animated statistics
+Hi! I'm a **Software Engineer** with expertise in full-stack development and a passion for building scalable, user-centric applications. Currently based in **Florida, USA**, I specialize in modern web technologies and cloud infrastructure.
 
-## 🛠️ Tech Stack
+### 🎯 What I Do
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: React Icons
-- **Font**: Google Fonts (Inter)
+- **Full-Stack Development**: Building responsive web applications with React, Next.js, and TypeScript
+- **Backend Engineering**: Designing RESTful APIs and microservices with Node.js, Python, and Java
+- **Cloud Architecture**: Deploying and managing applications on AWS and Azure
+- **Database Design**: Working with PostgreSQL, MongoDB, and MySQL
+- **DevOps**: Implementing CI/CD pipelines and containerization with Docker
 
-## 📁 Project Structure
+### 💼 Professional Experience
 
-```
-SnehaGrian/
-├── app/
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Home page
-├── components/
-│   ├── Header.tsx           # Navigation header
-│   ├── Footer.tsx           # Footer
-│   ├── Hero.tsx             # Hero section
-│   ├── About.tsx            # About section
-│   ├── Experience.tsx       # Work experience
-│   ├── Education.tsx        # Education details
-│   ├── Skills.tsx           # Technical skills
-│   ├── Projects.tsx         # Academic projects
-│   ├── Contact.tsx          # Contact form
-│   └── Section.tsx          # Reusable section wrapper
-├── public/                  # Static assets
-├── next.config.js           # Next.js configuration
-├── tailwind.config.ts       # Tailwind configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Dependencies
+**Software Engineer Intern** @ FOSSFREAKS *(Jun 2024 - Aug 2024)*
+- Enhanced front-end performance and user experience
+- Collaborated on feature development in an Agile environment
 
-```
+**Software Developer Intern** @ EinNel Technologies *(Jan 2023 - Jun 2023)*
+- Developed responsive front-end components
+- Integrated RESTful APIs for enterprise applications
 
-## 🚦 Getting Started
+### 🎓 Education
 
-### Prerequisites
+**Master of Science in Computer Science** - Arizona State University *(Expected May 2025)*  
+**Bachelor of Engineering in Computer Science** - Anna University *(May 2023)*
 
-- Node.js 18+ installed
-- npm or yarn package manager
+### 🏆 Key Achievements
 
-### Installation
-
-1. Clone the repository or navigate to the project directory:
-```bash
-cd /Users/prabakaran/Downloads/SnehaGrian
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 📜 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-
-## 🎨 Customization
-
-### Update Personal Information
-
-Edit the content in the following components:
-- **Hero.tsx**: Name and title
-- **About.tsx**: Professional summary
-- **Experience.tsx**: Work experience
-- **Education.tsx**: Educational background
-- **Skills.tsx**: Technical skills
-- **Projects.tsx**: Academic/personal projects
-- **Contact.tsx**: Contact information
-
-### Modify Colors
-
-Update the color scheme in `tailwind.config.ts`:
-```typescript
-colors: {
-  primary: {
-    // Your custom colors
-  }
-}
-```
-
-### Add New Sections
-
-1. Create a new component in the `components/` directory
-2. Import and add it to `app/page.tsx`
-3. Update navigation links in `components/Header.tsx`
-
-## 🚀 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Vercel will automatically detect Next.js and deploy
-
-### Deploy to Other Platforms
-
-Build the project:
-```bash
-npm run build
-```
-
-The build output will be in the `.next` directory.
-
-## 📱 Responsive Breakpoints
-
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-
-## 🔧 Future Enhancements
-
-- [ ] Blog section with MDX support
-- [ ] CMS integration (Sanity/Contentful)
-- [ ] Analytics integration
-- [ ] Multi-language support
-- [ ] Resume download functionality
-- [ ] Project detail pages
-- [ ] Testimonials section
-- [ ] Newsletter subscription
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-**Sneha Grian Joshua**
-- Email: snehagrianjsk@gmail.com
-- LinkedIn: [linkedin.com/in/sneha-grian](https://linkedin.com/in/sneha-grian)
+- Developed **10+ academic projects** demonstrating proficiency across multiple tech stacks
+- Improved application performance by **30%** through optimization techniques
+- Achieved **95%** user satisfaction in deployed applications
 
 ---
 
-Built with ❤️ using Next.js and Tailwind CSS
-# snehagrian
-# snehagrian
+## 🚀 About This Portfolio
+
+This repository contains the source code for my personal portfolio website - a modern, responsive web application showcasing my work, skills, and experience.
+
+### ✨ Features
+
+- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Performance Optimized**: Server-side rendering and code splitting for fast load times
+- **Fully Responsive**: Seamless experience across all devices
+- **SEO Ready**: Complete meta tags and Open Graph support
+- **Interactive Animations**: Smooth transitions using Framer Motion
+- **Dark Mode**: Automatic theme detection
+
+### 🛠️ Tech Stack
+
+```
+Frontend:    Next.js 14, React, TypeScript
+Styling:     Tailwind CSS, Framer Motion
+Deployment:  Vercel
+```
+
+### 🚦 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the site locally.
+
+### 📂 Project Structure
+
+```
+├── app/              # Next.js app directory
+├── components/       # React components
+├── hooks/            # Custom React hooks
+└── public/           # Static assets
+```
+
+---
+
+## 📬 Get In Touch
+
+I'm always open to discussing new opportunities, collaborations, or just connecting with fellow developers!
+
+- **Email**: [snehagrianjsk@gmail.com](mailto:snehagrianjsk@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sneha-grian](https://linkedin.com/in/sneha-grian)
+- **Location**: Florida, USA
+
+---
+
+<div align="center">
+
+**Built with 💜 using Next.js and Tailwind CSS**
+
+⭐ Star this repo if you find it helpful!
+
+</div>
