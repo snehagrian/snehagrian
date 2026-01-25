@@ -77,13 +77,15 @@ const Hero = () => {
               <FaLinkedin />
               <span>LinkedIn</span>
             </a>
-            <button
-              onClick={() => window.open('/resume.pdf', '_blank')}
+            <a
+              href="https://drive.google.com/file/d/1ifI3qIB50HY9MuvR2Crsf_rBnEkH-PcY/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-accent-600 text-white rounded-lg hover:bg-accent-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
             >
               <FaDownload />
               <span>Resume</span>
-            </button>
+            </a>
           </motion.div>
 
           <motion.div
