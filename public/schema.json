@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sneha Grian Joshua",
+  "url": "https://snehagrian.vercel.app",
+  "image": "https://snehagrian.vercel.app/og-image.png",
+  "jobTitle": "Software Engineer",
+  "description": "Experienced Software Engineer specializing in full-stack development, cloud technologies, and scalable web applications",
+  "email": "mailto:snehagrianjsk@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Florida",
+    "addressCountry": "USA"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Arizona State University",
+      "url": "https://www.asu.edu"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Anna University",
+      "url": "https://www.annauniv.edu"
+    }
+  ],
+  "sameAs": [
+    "https://linkedin.com/in/sneha-grian",
+    "https://github.com/snehagrian"
+  ],
+  "knowsAbout": [
+    "Full Stack Development",
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "Java",
+    "Spring Boot",
+    "AWS",
+    "Azure",
+    "Cloud Computing",
+    "Microservices",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker"
+  ]
+}
