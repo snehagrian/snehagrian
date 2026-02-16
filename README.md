@@ -16,21 +16,6 @@ Hi! I'm a **Software Engineer** with expertise in full-stack development and a p
 - **Database Design**: Working with PostgreSQL, MongoDB, and MySQL
 - **DevOps**: Implementing CI/CD pipelines and containerization with Docker
 
-### 💼 Professional Experience
-
-**Software Engineer Intern** @ FOSSFREAKS *(Jun 2024 - Aug 2024)*
-- Enhanced front-end performance and user experience
-- Collaborated on feature development in an Agile environment
-
-**Software Developer Intern** @ EinNel Technologies *(Jan 2023 - Jun 2023)*
-- Developed responsive front-end components
-- Integrated RESTful APIs for enterprise applications
-
-### 🎓 Education
-
-**Master of Science in Computer Science** - Arizona State University *(Expected May 2025)*  
-**Bachelor of Engineering in Computer Science** - Anna University *(May 2023)*
-
 ### 🏆 Key Achievements
 
 - Developed **10+ academic projects** demonstrating proficiency across multiple tech stacks
