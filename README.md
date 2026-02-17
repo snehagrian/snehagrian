@@ -6,67 +6,36 @@
 
 ## 👋 Welcome
 
-Hi! I'm a **Software Engineer** with expertise in full-stack development and a passion for building scalable, user-centric applications. Currently based in **Florida, USA**, I specialize in modern web technologies and cloud infrastructure.
+Hi! I'm a **Software Development Engineer** with experience building and owning backend services and scalable microservices using Java, Python, Node.js, and AWS. Currently based in **Jacksonville, FL**, I specialize in RESTful APIs, event-driven systems, and performance-optimized data workflows.
 
 ### 🎯 What I Do
 
-- **Full-Stack Development**: Building responsive web applications with React, Next.js, and TypeScript
-- **Backend Engineering**: Designing RESTful APIs and microservices with Node.js, Python, and Java
-- **Cloud Architecture**: Deploying and managing applications on AWS and Azure
-- **Database Design**: Working with PostgreSQL, MongoDB, and MySQL
-- **DevOps**: Implementing CI/CD pipelines and containerization with Docker
+- **Backend & Distributed Systems**: Building microservices, RESTful APIs, and event-driven architectures with strong focus on scalability and fault tolerance
+- **Full-Stack Development**: Creating responsive applications with React, React Native (TypeScript), and modern web technologies
+- **Cloud & DevOps**: Deploying on AWS (EC2, Lambda, DynamoDB, S3), implementing CI/CD pipelines with Jenkins and Docker
+- **Database Engineering**: Designing and optimizing queries for MySQL, PostgreSQL, MongoDB, and DynamoDB
+- **Performance Optimization**: Applying data structures, algorithms, and object-oriented design to improve system reliability
 
 ### 🏆 Key Achievements
 
-- Developed **10+ academic projects** demonstrating proficiency across multiple tech stacks
-- Improved application performance by **30%** through optimization techniques
-- Achieved **95%** user satisfaction in deployed applications
+- Delivered **10+ production-grade applications** with scalable microservices architecture
+- Reduced API response latency by **28%** through RESTful optimization and query performance tuning
+- Automated log analysis reducing manual effort by **80%** with AI-powered bottleneck detection
+- Improved financial tracking efficiency by **40%** with full-stack mobile FinTech application
 
 ---
 
-## 🚀 About This Portfolio
-
-This repository contains the source code for my personal portfolio website - a modern, responsive web application showcasing my work, skills, and experience.
-
-### ✨ Features
-
-- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
-- **Performance Optimized**: Server-side rendering and code splitting for fast load times
-- **Fully Responsive**: Seamless experience across all devices
-- **SEO Ready**: Complete meta tags and Open Graph support
-- **Interactive Animations**: Smooth transitions using Framer Motion
-- **Dark Mode**: Automatic theme detection
-
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ```
-Frontend:    Next.js 14, React, TypeScript
+Languages:   Java, Python, C++, TypeScript, JavaScript
+Backend:     Node.js, Spring Boot, Express, Microservices
+Frontend:    Next.js 14, React, React Native, TypeScript
+Databases:   MySQL, PostgreSQL, MongoDB, DynamoDB
+Cloud:       AWS (EC2, Lambda, DynamoDB, S3, IAM, CloudWatch)
+DevOps:      Docker, Kubernetes, Jenkins, CI/CD
 Styling:     Tailwind CSS, Framer Motion
-Deployment:  Vercel
-```
-
-### 🚦 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-Visit [http://localhost:3000](http://localhost:3000) to view the site locally.
-
-### 📂 Project Structure
-
-```
-├── app/              # Next.js app directory
-├── components/       # React components
-├── hooks/            # Custom React hooks
-└── public/           # Static assets
+Deployment:  Vercel, AWS
 ```
 
 ---
@@ -77,7 +46,8 @@ I'm always open to discussing new opportunities, collaborations, or just connect
 
 - **Email**: [snehagrianjsk@gmail.com](mailto:snehagrianjsk@gmail.com)
 - **LinkedIn**: [linkedin.com/in/sneha-grian](https://linkedin.com/in/sneha-grian)
-- **Location**: Florida, USA
+- **GitHub**: [github.com/snehagrian](https://github.com/snehagrian)
+- **Location**: Jacksonville, FL
 
 ---
 
