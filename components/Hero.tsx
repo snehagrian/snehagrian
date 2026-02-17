@@ -6,10 +6,10 @@ import { useTypingEffect } from '@/hooks/useTypingEffect'
 
 const Hero = () => {
   const typedRole = useTypingEffect([
-    'Software Engineer',
+    'Software Development Engineer',
+    'Backend Systems Developer',
     'Full-Stack Developer',
-    'Cloud Architect',
-    'System Designer',
+    'Cloud & Microservices Architect',
   ])
 
   return (
@@ -51,8 +51,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto"
           >
-            Building scalable, fault-tolerant distributed systems and cloud-native services with a focus
-            on performance optimization and reliability
+            Software Development Engineer with experience building and owning backend services and scalable microservices using Java, Python, Node.js, and AWS. Skilled in RESTful APIs, event-driven systems, and performance-optimized data workflows.
           </motion.p>
 
           <motion.div

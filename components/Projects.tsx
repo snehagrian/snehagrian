@@ -2,35 +2,53 @@
 
 import Section from './Section'
 import { motion } from 'framer-motion'
-import { FaCalendar, FaUsers, FaChartLine } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt, FaChartLine } from 'react-icons/fa'
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Budgetron - Personal & Group Financial Management Platform',
-      date: 'August 2025',
-      technologies: ['React Native', 'Express.js', 'Node.js', 'MongoDB'],
+      title: 'AI-Powered API Performance Bottleneck Analyzer',
+      type: 'Solo Project',
+      technologies: ['FastAPI', 'Python', 'OpenAI GPT-4', 'Pydantic', 'REST APIs'],
       achievements: [
-        'Collaborated with a team to build a React Native + Express.js application for expense tracking, group payments, and financial goal management',
-        'Enabled collaborative expense sharing, automated bank statement imports, and exportable reports (Excel/PDF), reducing manual tracking effort by 40%',
+        'Reduced manual production log analysis time by 80% by automatically detecting API bottlenecks including slow endpoints, high error rates, and N+1 database patterns',
+        'Built an AI-powered FastAPI microservice integrating P95 latency analysis and GPT-4–generated optimization recommendations to deliver actionable performance fixes',
       ],
       metrics: {
         icon: <FaChartLine />,
-        text: '40% reduction in manual tracking',
+        text: '80% reduction in analysis time',
+      },
+      links: {
+        github: 'https://github.com/snehagrian/API-PBA',
       },
     },
     {
-      title: 'Cyberbullying Predictive Analysis on Twitter Data',
-      date: 'January 2022 - April 2022',
-      technologies: ['Python', 'Random Forest', 'Machine Learning', 'Data Processing'],
-      teamSize: 3,
+      title: 'Budgetron – Mobile FinTech Application',
+      type: 'Solo Project',
+      technologies: ['React Native', 'TypeScript', 'Node.js', 'MySQL', 'REST APIs'],
       achievements: [
-        'Developed a Random Forest-based classification model to detect harmful content, achieving 72.2% accuracy',
-        'Supported by scalable data preprocessing pipelines for efficient analysis of large Twitter datasets',
+        'Owned end-to-end development of a full-stack mobile application using React Native (TypeScript) and Node.js, designing scalable REST APIs and backend architecture for expense tracking and group payments',
+        'Reduced manual financial tracking effort by 40% and improved API response performance by 25% through optimized MySQL queries, efficient endpoint design, and automated Excel/PDF report generation',
       ],
       metrics: {
         icon: <FaChartLine />,
-        text: '72.2% accuracy achieved',
+        text: '40% reduction in tracking effort',
+      },
+    },
+    {
+      title: 'Interactive Gamified Learning Platform',
+      type: 'Solo Project',
+      technologies: ['React.js', 'HTML5 Canvas', 'JavaScript'],
+      achievements: [
+        'Engineered a browser-based educational game using React and HTML5 Canvas, optimizing rendering and state management to achieve smooth 60 FPS performance',
+        'Deployed live proof-of-concept and improved UI responsiveness through efficient component architecture and event handling',
+      ],
+      metrics: {
+        icon: <FaChartLine />,
+        text: '60 FPS performance',
+      },
+      links: {
+        live: 'https://phonicsworld-beta.vercel.app/',
       },
     },
   ]
@@ -54,18 +72,35 @@ const Projects = () => {
                     {project.title}
                   </h3>
                   <div className="flex flex-wrap items-center gap-4 text-gray-600 dark:text-gray-400 mb-4">
-                    <div className="flex items-center gap-2">
-                      <FaCalendar />
-                      <span>{project.date}</span>
-                    </div>
-                    {project.teamSize && (
-                      <div className="flex items-center gap-2">
-                        <FaUsers />
-                        <span>Team Size: {project.teamSize}</span>
-                      </div>
-                    )}
+                    <span className="font-medium">{project.type}</span>
                   </div>
                 </div>
+                {(project.links?.github || project.links?.live) && (
+                  <div className="flex gap-3 mt-4 md:mt-0">
+                    {project.links.github && (
+                      <a
+                        href={project.links.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 bg-gray-800 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-900 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <FaGithub />
+                        <span>GitHub</span>
+                      </a>
+                    )}
+                    {project.links.live && (
+                      <a
+                        href={project.links.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                      >
+                        <FaExternalLinkAlt />
+                        <span>Live Demo</span>
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
 
               <div className="mb-4">

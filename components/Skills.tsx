@@ -21,10 +21,12 @@ import {
   SiMongodb,
   SiPostgresql,
   SiMysql,
+  SiAmazondynamodb,
   SiKubernetes,
   SiJenkins,
   SiRedux,
   SiTailwindcss,
+  SiCplusplus,
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -32,10 +34,11 @@ const Skills = () => {
     {
       category: 'Programming Languages',
       skills: [
-        { name: 'Python', icon: <FaPython className="text-blue-500" /> },
         { name: 'Java', icon: <FaJava className="text-red-600" /> },
-        { name: 'JavaScript', icon: <FaJs className="text-yellow-500" /> },
+        { name: 'Python', icon: <FaPython className="text-blue-500" /> },
+        { name: 'C++', icon: <SiCplusplus className="text-blue-700" /> },
         { name: 'TypeScript', icon: <SiTypescript className="text-blue-600" /> },
+        { name: 'JavaScript', icon: <FaJs className="text-yellow-500" /> },
       ],
     },
     {
@@ -58,9 +61,10 @@ const Skills = () => {
     {
       category: 'Databases',
       skills: [
-        { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
-        { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-700" /> },
         { name: 'MySQL', icon: <SiMysql className="text-blue-600" /> },
+        { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-700" /> },
+        { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
+        { name: 'DynamoDB', icon: <SiAmazondynamodb className="text-blue-800" /> },
       ],
     },
     {
@@ -74,14 +78,24 @@ const Skills = () => {
       ],
     },
     {
+      category: 'Backend & Systems',
+      skills: [
+        { name: 'Microservices Architecture', icon: null },
+        { name: 'RESTful API Design', icon: null },
+        { name: 'Event-Driven Architecture', icon: null },
+        { name: 'Asynchronous Processing', icon: null },
+        { name: 'Distributed Systems', icon: null },
+        { name: 'Fault Tolerance & Scalability', icon: null },
+      ],
+    },
+    {
       category: 'Core Concepts',
       skills: [
         { name: 'Data Structures & Algorithms', icon: null },
         { name: 'Object-Oriented Design', icon: null },
-        { name: 'Distributed Systems', icon: null },
-        { name: 'Microservices Architecture', icon: null },
-        { name: 'CI/CD', icon: null },
-        { name: 'Agile & SDLC', icon: null },
+        { name: 'Query Optimization', icon: null },
+        { name: 'CI/CD & Agile', icon: null },
+        { name: 'System Design & SDLC', icon: null },
       ],
     },
   ]

@@ -30,9 +30,9 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt className="text-3xl" />,
       title: 'Location',
-      value: 'Florida, USA',
+      value: 'Jacksonville, FL',
       link: null,
-      description: 'Based in the Sunshine State',
+      description: 'Based in Jacksonville',
     },
   ]
 

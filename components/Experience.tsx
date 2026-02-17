@@ -12,11 +12,11 @@ const Experience = () => {
       location: 'Chennai, India',
       period: 'November 2022 - December 2023',
       achievements: [
-        'Designed, developed, and delivered cloud-ready, full-stack web applications using React.js, Node.js, and Express, contributing to 10+ production client projects across multiple domains',
-        'Built scalable, fault-tolerant RESTful APIs using efficient data structures and object-oriented design principles, improving system performance, latency, and reliability',
-        'Developed reusable, maintainable frontend components with React Context API and integrated backend services to ensure consistent state management and responsive user experiences',
-        'Implemented an AI-powered expense recommendation engine using OpenAI APIs, applying backend logic and data processing to deliver personalized user insights',
-        'Owned features end-to-end, from design and implementation to deployment and production support, including debugging issues, writing Jest tests, and supporting CI/CD pipelines',
+        'Delivered 10+ production-grade applications by architecting scalable Node.js microservices and RESTful APIs supporting high-volume production traffic across multi-domain client environments',
+        'Reduced API response latency by 28% by optimizing RESTful architecture, improving database query performance, and applying efficient data structures and object-oriented design principles',
+        'Improved frontend performance and state consistency by building reusable React components using Context API and integrating backend services for responsive user experiences',
+        'Engineered an AI-powered expense recommendation engine using OpenAI APIs and backend data processing workflows to enable personalized financial insights',
+        'Reduced post-release defects and improved release stability by owning system design, Jest-based test coverage, CI/CD automation, and production issue resolution',
       ],
     },
     {
@@ -25,10 +25,29 @@ const Experience = () => {
       location: 'Chennai, India',
       period: 'February 2022 - October 2022',
       achievements: [
-        'Optimized Spring Boot microservices in a distributed backend environment, reducing API latency by 30% and improving scalability and responsiveness',
-        'Designed and implemented asynchronous and reactive REST APIs, increasing backend throughput, fault tolerance, and system resilience',
-        'Contributed to ML-driven automation initiatives and full-stack bug fixes across React, Java, and PostgreSQL, reducing backend processing time by 25%',
-        'Collaborated with cross-functional teams to debug production issues, improve system reliability, and support iterative delivery in an Agile development workflow',
+        'Contributed to backend microservices development using Spring Boot within a distributed system architecture supporting structured data processing',
+        'Optimized REST APIs and backend logic through performance tuning and query indexing (PostgreSQL, MySQL), improving throughput and reducing latency by 25%',
+        'Assisted in database schema refinement and production debugging to enhance scalability, reliability, and service stability',
+      ],
+    },
+    {
+      title: 'Software Developer (Volunteer)',
+      company: 'Resilient Visions Collaboratory Lab, ASU',
+      location: 'Tempe, USA',
+      period: 'February 2026 - Present',
+      achievements: [
+        'Leading performance-critical C++ modules for real-time video processing using OpenFace, designing asynchronous workflows under strict low-latency constraints',
+        'Conducting runtime profiling and memory analysis to optimize performance, improve responsiveness, and maintain system stability in real-time execution environments',
+      ],
+    },
+    {
+      title: 'Student Worker',
+      company: 'Arizona State University',
+      location: 'Tempe, USA',
+      period: 'August 2024 - December 2025',
+      achievements: [
+        'Maintained POS and inventory management systems ensuring accurate transaction processing and data consistency',
+        'Collaborated with team members to improve reporting workflows and reduce manual operational errors',
       ],
     },
   ]

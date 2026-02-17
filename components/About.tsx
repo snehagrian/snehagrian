@@ -33,11 +33,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-lg text-gray-700 dark:text-gray-300 mb-12 text-center leading-relaxed"
         >
-          Software Engineer with strong foundations in data structures, algorithms, and object-oriented
-          design. Experienced in building scalable, fault-tolerant distributed systems and cloud-native
-          services using Java, Python, and AWS. Proven ownership of features across the full development
-          lifecycle, with a focus on performance optimization, reliability, and delivering high-quality
-          software in Agile environments.
+          Software Development Engineer with experience building and owning backend services and scalable microservices using Java, Python, Node.js, and AWS. Skilled in RESTful APIs, event-driven systems, and performance-optimized data workflows. Strong foundation in distributed systems, system design, and production reliability.
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-8 mt-12">

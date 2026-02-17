@@ -14,21 +14,21 @@ const Achievements = () => {
     },
     {
       icon: <FaTrophy className="text-4xl" />,
-      number: '30%',
-      label: 'Latency Reduction',
-      description: 'In microservices',
+      number: '28%',
+      label: 'API Latency Reduction',
+      description: 'Backend optimization',
     },
     {
       icon: <FaUsers className="text-4xl" />,
       number: '40%',
       label: 'Efficiency Gain',
-      description: 'User tracking effort',
+      description: 'Financial tracking',
     },
     {
       icon: <FaGlobe className="text-4xl" />,
-      number: '72%',
-      label: 'ML Accuracy',
-      description: 'Cyberbullying detection',
+      number: '80%',
+      label: 'Time Saved',
+      description: 'Log analysis automation',
     },
   ]
 
