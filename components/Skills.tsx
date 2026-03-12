@@ -27,6 +27,10 @@ import {
   SiRedux,
   SiTailwindcss,
   SiCplusplus,
+  SiFirebase,
+  SiVercel,
+  SiOpenai,
+  SiGooglechrome,
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -46,6 +50,7 @@ const Skills = () => {
       skills: [
         { name: 'React', icon: <FaReact className="text-cyan-500" /> },
         { name: 'Next.js', icon: <SiNextdotjs className="text-black dark:text-white" /> },
+        { name: 'React Native', icon: <FaReact className="text-cyan-600" /> },
         { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
         { name: 'Redux', icon: <SiRedux className="text-purple-600" /> },
       ],
@@ -64,6 +69,7 @@ const Skills = () => {
         { name: 'MySQL', icon: <SiMysql className="text-blue-600" /> },
         { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-700" /> },
         { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
+        { name: 'Firebase', icon: <SiFirebase className="text-orange-500" /> },
         { name: 'DynamoDB', icon: <SiAmazondynamodb className="text-blue-800" /> },
       ],
     },
@@ -71,6 +77,7 @@ const Skills = () => {
       category: 'Cloud & DevOps',
       skills: [
         { name: 'AWS', icon: <FaAws className="text-orange-500" /> },
+        { name: 'Vercel', icon: <SiVercel className="text-black dark:text-white" /> },
         { name: 'Docker', icon: <FaDocker className="text-blue-500" /> },
         { name: 'Kubernetes', icon: <SiKubernetes className="text-blue-600" /> },
         { name: 'Jenkins', icon: <SiJenkins className="text-red-600" /> },
@@ -83,6 +90,8 @@ const Skills = () => {
         { name: 'Microservices Architecture', icon: null },
         { name: 'RESTful API Design', icon: null },
         { name: 'Event-Driven Architecture', icon: null },
+        { name: 'AI/ML Integration (OpenAI)', icon: <SiOpenai className="text-green-500" /> },
+        { name: 'Chrome Extension Development', icon: <SiGooglechrome className="text-blue-500" /> },
         { name: 'Asynchronous Processing', icon: null },
         { name: 'Distributed Systems', icon: null },
         { name: 'Fault Tolerance & Scalability', icon: null },

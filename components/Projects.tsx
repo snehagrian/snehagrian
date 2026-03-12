@@ -2,10 +2,49 @@
 
 import Section from './Section'
 import { motion } from 'framer-motion'
-import { FaGithub, FaExternalLinkAlt, FaChartLine } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt, FaChartLine, FaStar } from 'react-icons/fa'
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'ProofMap – GitHub Skills Verification Platform',
+      type: 'Production',
+      featured: true,
+      technologies: ['Next.js', 'TypeScript', 'Node.js', 'OpenAI GPT-4', 'GitHub API', 'Vercel'],
+      achievements: [
+        'Built a full-stack platform that automatically validates developer resume skills against GitHub repositories, generating AI-powered skill readiness scores and personalized project roadmaps',
+        'Designed and deployed intelligent skill detection system analyzing repository patterns, dependencies, and code structure to identify proven vs. missing technical competencies',
+        'Integrated OpenAI GPT-4 to generate contextual project recommendations that help developers bridge skill gaps through practical, portfolio-ready implementations',
+        'Published technical article on DEV.to sharing the problem-solving journey and platform architecture, reaching developers seeking to strengthen their technical profiles',
+      ],
+      metrics: {
+        icon: <FaChartLine />,
+        text: 'Live production platform',
+      },
+      links: {
+        github: 'https://github.com/snehagrian/proofmap',
+        live: 'https://proofmap.snehagrian.dev',
+        article: 'https://dev.to/sneha_grian_cfca240a95d41/i-built-proofmap-because-recruiters-dont-trust-resumes-anymore-4m0b',
+      },
+    },
+    {
+      title: 'BloomVe – People-First Job Sharing Platform',
+      type: 'Full-Stack Project',
+      technologies: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'Chrome Extension', 'Tailwind CSS 4'],
+      achievements: [
+        'Architected and developed a complete collaborative platform enabling room-based job sharing with dual modes (Chats and Channels), achieving MVP+ status with full authentication, privacy controls, and invite system',
+        'Engineered Chrome Extension (Manifest V3) integrated with Next.js web app for seamless one-click content sharing from any webpage, enabling rapid opportunity distribution across collaborative rooms',
+        'Implemented comprehensive Firebase backend leveraging Auth, Firestore, and Storage to support real-time collaboration, user management, and room-based access control with owner-managed permissions',
+        'Designed modern glass-morphism UI with Tailwind CSS 4 ensuring consistent branding and user experience across both web application and browser extension components',
+      ],
+      metrics: {
+        icon: <FaChartLine />,
+        text: 'MVP+ with Chrome Extension',
+      },
+      links: {
+        github: 'https://github.com/snehagrian/bloomve',
+      },
+    },
     {
       title: 'AI-Powered API Performance Bottleneck Analyzer',
       type: 'Solo Project',
@@ -54,7 +93,7 @@ const Projects = () => {
   ]
 
   return (
-    <Section id="projects" title="Academic Projects" className="bg-white dark:bg-slate-900">
+    <Section id="projects" title="Featured Projects" className="bg-white dark:bg-slate-900">
       <div className="max-w-5xl mx-auto">
         <div className="space-y-8">
           {projects.map((project, index) => (
@@ -64,8 +103,18 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-slate-50 dark:bg-slate-800 rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className={`bg-slate-50 dark:bg-slate-800 rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ${
+                project.featured ? 'ring-2 ring-primary-500 dark:ring-primary-400' : ''
+              }`}
             >
+              {project.featured && (
+                <div className="mb-4">
+                  <span className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-primary-500 to-accent-500 text-white rounded-full text-sm font-semibold">
+                    <FaStar className="text-xs" />
+                    Featured
+                  </span>
+                </div>
+              )}
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -75,8 +124,8 @@ const Projects = () => {
                     <span className="font-medium">{project.type}</span>
                   </div>
                 </div>
-                {(project.links?.github || project.links?.live) && (
-                  <div className="flex gap-3 mt-4 md:mt-0">
+                {(project.links?.github || project.links?.live || project.links?.article) && (
+                  <div className="flex flex-wrap gap-3 mt-4 md:mt-0">
                     {project.links.github && (
                       <a
                         href={project.links.github}
@@ -97,6 +146,17 @@ const Projects = () => {
                       >
                         <FaExternalLinkAlt />
                         <span>Live Demo</span>
+                      </a>
+                    )}
+                    {project.links.article && (
+                      <a
+                        href={project.links.article}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 bg-accent-600 text-white rounded-lg hover:bg-accent-700 transition-colors"
+                      >
+                        <FaExternalLinkAlt />
+                        <span>Article</span>
                       </a>
                     )}
                   </div>
