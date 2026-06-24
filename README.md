@@ -47,8 +47,7 @@ I'm always open to discussing new opportunities, collaborations, or just connect
 - **Email**: [snehagrianjsk@gmail.com](mailto:snehagrianjsk@gmail.com)
 - **LinkedIn**: [linkedin.com/in/sneha-grian](https://linkedin.com/in/sneha-grian)
 - **GitHub**: [github.com/snehagrian](https://github.com/snehagrian)
-- **Location**: Jacksonville, FL
-
+- **Location**: Tempe, Az
 ---
 
 <div align="center">
