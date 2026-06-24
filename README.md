@@ -6,7 +6,7 @@
 
 ## 👋 Welcome
 
-Hi! I'm a **Software Development Engineer** with experience building and owning backend services and scalable microservices using Java, Python, Node.js, and AWS. Currently based in **Jacksonville, FL**, I specialize in RESTful APIs, event-driven systems, and performance-optimized data workflows.
+Hi! I'm a **Software Development Engineer** with experience building and owning backend services and scalable microservices using Java, Python, Node.js, and AWS. Currently based in **Tempe, Az**, I specialize in RESTful APIs, event-driven systems, and performance-optimized data workflows.
 
 ### 🎯 What I Do
 
